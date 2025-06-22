@@ -7,21 +7,35 @@
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <h1>Letter Sort: Long Stick or Not?</h1>
-  <div class="board">
-    <div class="column" id="long-stick">
-      <h2>Long Sticks</h2>
+  <header>
+    <h1>Letter Sort: Long Stick or Not?</h1>
+
+    <div class="top-controls">
+      <div class="difficulty">
+        <button onclick="setDifficulty('easy')">Easy</button>
+        <button onclick="setDifficulty('medium')">Medium</button>
+        <button onclick="setDifficulty('hard')">Hard</button>
+      </div>
+
+      <label class="switch">
+        <input type="checkbox" id="darkToggle">
+        <span class="slider round"></span>
+      </label>
     </div>
-    <div class="column" id="no-stick">
-      <h2>No Sticks</h2>
+  </header>
+
+  <main>
+    <div class="board">
+      <div class="column" id="long-stick">
+        <h2>Long Sticks</h2>
+      </div>
+      <div class="column" id="no-stick">
+        <h2>No Long Sticks</h2>
+      </div>
     </div>
-  </div>
-  <div class="letters" id="letters"></div>
 
-  <audio id="correct" src="correct.mp3"></audio>
-  <audio id="fail" src="fail.mp3"></audio>
-
-
+    <div class="letters" id="letters"></div>
+  </main>
 
   <script src="script.js"></script>
 </body>
