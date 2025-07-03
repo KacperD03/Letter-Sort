@@ -1,35 +1,36 @@
 # Letter Sort
 
-Gra edukacyjna do nauki foniki i rozpoznawania liter na podstawie ich wyglądu. Zadaniem gracza jest **przeciąganie liter** do odpowiednich kolumn w zależności od tego, czy litera zawiera **długi pionowy słupek** (`Long Stick`) czy nie (`No Long Stick`).
+https://letter-sort.netlify.app/
+
+An educational game for learning phonics and recognizing letters based on their appearance. The player's task is to **drag letters** into the appropriate columns depending on whether the letter contains a **long vertical stem** (`Long Stick`) or not (`No Long Stick`).
+---
+
+## Features
+
+- **3 difficulty levels**:  
+  - `Easy` – simple lowercase letters  
+  - `Medium` – different fonts and colors  
+  - `Hard` – uppercase letters, random rotation
+
+- **Dark mode** – toggled with a stylish slider
+
+- **Letter sound playback** when dragging letters
+
+- **Success/failure sounds** when dropping letters into the column
+
+- **Reset after each round** with a new set of random letters
 
 ---
 
-## Funkcje
+## Preview
 
-- **3 poziomy trudności**:  
-  - `Easy` – proste małe litery  
-  - `Medium` – różne czcionki i kolory  
-  - `Hard` – duże litery, losowa rotacja
-
-- **Tryb ciemny** – przełączany eleganckim suwakiem
-
-- **Odtwarzanie dźwięków liter** przy przeciąganiu
-
-- **Dźwięki sukcesu/błędu** przy wrzucaniu liter do kolumny
-
-- **Reset po każdej rundzie** z nowym zestawem losowych liter
-
----
-
-## Podgląd
-
-Trudny Trudny:
+Hard: 
 
 ![alt text](image.png)
 
 ---
 
-Poziom średni z ciemnym trybem:
+Medium level with dark mode:
 
 ![alt text](image-1.png)
 
