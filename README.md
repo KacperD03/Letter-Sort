@@ -3,6 +3,7 @@
 https://letter-sort.netlify.app/
 
 An educational game for learning phonics and recognizing letters based on their appearance. The player's task is to **drag letters** into the appropriate columns depending on whether the letter contains a **long vertical stem** (`Long Stick`) or not (`No Long Stick`).
+
 ---
 
 ## Features
